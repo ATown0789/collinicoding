@@ -1,0 +1,44 @@
+{
+  "name": "collinicoding",
+  "version": "1.0.0",
+  "description": "The first itteration of my portfolio site. Built from scratch using React.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --config webpack.dev.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATown0789/collinicoding.git"
+  },
+  "keywords": [
+    "React.js",
+    "portfolio",
+    "Anthony",
+    "Collini"
+  ],
+  "author": "Anthony Collini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ATown0789/collinicoding/issues"
+  },
+  "homepage": "https://github.com/ATown0789/collinicoding#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "react-hot-loader": "^4.12.21",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
